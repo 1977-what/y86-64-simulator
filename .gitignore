@@ -1,0 +1,47 @@
+# 编译生成的文件
+*.o
+*.ko
+*.obj
+*.elf
+*.gch
+*.pch
+*.so
+*.so.*
+*.a
+*.lib
+*.la
+*.lo
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# 调试文件
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# 临时文件
+*~
+*.swp
+*.swo
+
+# 特定于Y86-64模拟器的输出文件
+*.yo
+
+# 配置和日志文件
+.DS_Store
+*.log
+
+# 生成的可执行文件
+yas
+yis
+ssim
+psim
+hcl2c
+hcl2v
